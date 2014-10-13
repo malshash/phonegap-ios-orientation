@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://cordova.apache.org/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="com.meltmedia.phonegap-ios-orientation" version="0.0.1">
+  <name>ios-orientation</name>
+  <description>PhoneGap plugin for iOS orientation</description>
+  <license/>
+  <keywords>ibeacons</keywords>
+  <engines>
+    <engine name="cordova" version="&gt;=3.3.0"/>
+  </engines>
+  <!-- ios -->
+  <platform name="ios">
+    <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations">
+      <array>
+      	<string>UIInterfaceOrientationPortrait</string>
+      	<string>UIInterfaceOrientationPortraitUpsideDown</string>
+      	<string>UIInterfaceOrientationLandscapeLeft</string>
+      	<string>UIInterfaceOrientationLandscapeRight</string>
+      </array>
+    </config-file>
+  </platform>
+</plugin>
