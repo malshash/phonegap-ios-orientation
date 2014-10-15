@@ -5,11 +5,11 @@
   <license/>
   <keywords>ibeacons</keywords>
   <engines>
-    <engine name="cordova" version="&gt;=3.3.0"/>
+    <engine name="cordova" version="&gt;=3.5.0"/>
   </engines>
   <!-- ios -->
   <platform name="ios">
-    <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations">
+    <config-file target="*-Info.plist" parent="UISupportedInterfaceOrientations" overwrite="true">
       <array>
       	<string>UIInterfaceOrientationPortrait</string>
       	<string>UIInterfaceOrientationPortraitUpsideDown</string>
